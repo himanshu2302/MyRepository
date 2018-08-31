@@ -7,10 +7,11 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		//the path of the feature file.
-		features = "/Users/himanshu.dubey/eclipse-workspace/FreeCRMBDDFramework/src/main/java/features"
+		features = "/Users/himanshu.dubey/eclipse-workspace/FreeCRMBDDFramework/src/main/java/features/createcontact.feature"
 		//the path of the step definition files.
 		,glue= {"stepDefinition"}
 		,monochrome = true,
+				dryRun=false,
 				strict = true
 		,format= {"pretty", "html:test-output"}
 		)

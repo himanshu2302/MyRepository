@@ -52,5 +52,17 @@ public class CreateNewContacts {
 		System.out.println(text);
 		Assert.assertEquals("Contact Information", text);
 	}
+	
+	@Then("^user enter \"(.*)\" and \"(.*)\" and \"(.*)\"$")
+	public void create_new_contacts(String firstName, String lastName, String company) {
+		driver.findElement(By.xpath("//input[@id='first_name']")).sendKeys(firstName);
+		driver.findElement(By.xpath("//input[@id='surname']")).sendKeys(lastName);
+		driver.findElement(By.xpath("//input[@name='client_lookup']")).sendKeys(company);
+		driver.findElement(By.xpath("//table//td[@align='center'][@valign='top'][@colspan='2']//input[@value='Save']")).click();
+	}
+	
+	
+	
+	
 
 }
