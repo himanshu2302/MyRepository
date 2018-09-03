@@ -21,7 +21,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "user enters un and pwd",
+  "name": "user inputs \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -52,6 +52,8 @@ formatter.examples({
   "rows": [
     {
       "cells": [
+        "username",
+        "password",
         "first name",
         "last name",
         "company"
@@ -61,6 +63,8 @@ formatter.examples({
     },
     {
       "cells": [
+        "naveenk",
+        "test@123",
         "Santosh",
         "Tarai",
         "Exilant"
@@ -70,6 +74,8 @@ formatter.examples({
     },
     {
       "cells": [
+        "naveenk",
+        "test@123",
         "Nasir",
         "Md",
         "Exilant"
@@ -79,6 +85,8 @@ formatter.examples({
     },
     {
       "cells": [
+        "naveenk",
+        "test@123",
         "Rahul",
         "Jain",
         "Infosys"
@@ -88,6 +96,8 @@ formatter.examples({
     },
     {
       "cells": [
+        "naveenk",
+        "test@123",
         "Ravi",
         "Prakash",
         "Nokia"
@@ -113,7 +123,11 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "user enters un and pwd",
+  "name": "user inputs \"naveenk\" and \"test@123\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
   "keyword": "Then "
 });
 formatter.step({
@@ -135,9 +149,9 @@ formatter.step({
   "line": 11,
   "name": "user enter \"Santosh\" and \"Tarai\" and \"Exilant\"",
   "matchedColumns": [
-    0,
-    1,
-    2
+    2,
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -145,35 +159,45 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 6556162898,
+  "duration": 7520035031,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreateNewContacts.user_enters_un_pwd()"
+  "arguments": [
+    {
+      "val": "naveenk",
+      "offset": 13
+    },
+    {
+      "val": "test@123",
+      "offset": 27
+    }
+  ],
+  "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 170195229,
+  "duration": 157052768,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 5118027781,
+  "duration": 5471057361,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5122799270,
+  "duration": 5160284607,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2195479085,
+  "duration": 3075728855,
   "status": "passed"
 });
 formatter.match({
@@ -194,7 +218,7 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 1892763502,
+  "duration": 2027555036,
   "status": "passed"
 });
 formatter.scenario({
@@ -212,7 +236,11 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "user enters un and pwd",
+  "name": "user inputs \"naveenk\" and \"test@123\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
   "keyword": "Then "
 });
 formatter.step({
@@ -234,9 +262,9 @@ formatter.step({
   "line": 11,
   "name": "user enter \"Nasir\" and \"Md\" and \"Exilant\"",
   "matchedColumns": [
-    0,
-    1,
-    2
+    2,
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -244,35 +272,45 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 5869874224,
+  "duration": 5911824144,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreateNewContacts.user_enters_un_pwd()"
+  "arguments": [
+    {
+      "val": "naveenk",
+      "offset": 13
+    },
+    {
+      "val": "test@123",
+      "offset": 27
+    }
+  ],
+  "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 171157173,
+  "duration": 145287374,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 4834496012,
+  "duration": 4439944381,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5103955478,
+  "duration": 5196034018,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2228071065,
+  "duration": 2464397560,
   "status": "passed"
 });
 formatter.match({
@@ -293,7 +331,7 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 1866821476,
+  "duration": 2004929673,
   "status": "passed"
 });
 formatter.scenario({
@@ -311,7 +349,11 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "user enters un and pwd",
+  "name": "user inputs \"naveenk\" and \"test@123\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
   "keyword": "Then "
 });
 formatter.step({
@@ -333,9 +375,9 @@ formatter.step({
   "line": 11,
   "name": "user enter \"Rahul\" and \"Jain\" and \"Infosys\"",
   "matchedColumns": [
-    0,
-    1,
-    2
+    2,
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -343,35 +385,45 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 7034631317,
+  "duration": 5755936303,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreateNewContacts.user_enters_un_pwd()"
+  "arguments": [
+    {
+      "val": "naveenk",
+      "offset": 13
+    },
+    {
+      "val": "test@123",
+      "offset": 27
+    }
+  ],
+  "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 149611984,
+  "duration": 152084426,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 5947148514,
+  "duration": 5689463001,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5096032714,
+  "duration": 5103911869,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2352886560,
+  "duration": 2295480803,
   "status": "passed"
 });
 formatter.match({
@@ -392,7 +444,7 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 1074933554,
+  "duration": 1105630977,
   "status": "passed"
 });
 formatter.scenario({
@@ -410,7 +462,11 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "user enters un and pwd",
+  "name": "user inputs \"naveenk\" and \"test@123\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
   "keyword": "Then "
 });
 formatter.step({
@@ -432,9 +488,9 @@ formatter.step({
   "line": 11,
   "name": "user enter \"Ravi\" and \"Prakash\" and \"Nokia\"",
   "matchedColumns": [
-    0,
-    1,
-    2
+    2,
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -442,35 +498,45 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 7523842335,
+  "duration": 5756758952,
   "status": "passed"
 });
 formatter.match({
-  "location": "CreateNewContacts.user_enters_un_pwd()"
+  "arguments": [
+    {
+      "val": "naveenk",
+      "offset": 13
+    },
+    {
+      "val": "test@123",
+      "offset": 27
+    }
+  ],
+  "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 145335537,
+  "duration": 166560173,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 6808977859,
+  "duration": 5806037941,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 7129321109,
+  "duration": 5098463138,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2266986247,
+  "duration": 2446420916,
   "status": "passed"
 });
 formatter.match({
@@ -491,7 +557,7 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 1913746893,
+  "duration": 1945310494,
   "status": "passed"
 });
 });

@@ -24,10 +24,10 @@ public class CreateNewContacts {
 
 	}
 	
-	@Then("^user enters un and pwd$")
-	public void user_enters_un_pwd() {
-		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("naveenk");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("test@123");
+	@Then("^user inputs \"(.*)\" and \"(.*)\"$")
+	public void user_enters_un_pwd(String un, String pwd) {
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys(un);
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(pwd);
 	}
 	
 	@Then("^user click log btn$")
