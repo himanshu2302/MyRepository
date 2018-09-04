@@ -87,8 +87,8 @@ formatter.examples({
       "cells": [
         "naveenk",
         "test@123",
-        "Rahul",
-        "Jain",
+        "Pradeep",
+        "Kumar",
         "Infosys"
       ],
       "line": 17,
@@ -104,6 +104,17 @@ formatter.examples({
       ],
       "line": 18,
       "id": "free-crm-create-new-contact-feature;create-new-contact-test-feature;;5"
+    },
+    {
+      "cells": [
+        "naveenk",
+        "test@123",
+        "Himanshu",
+        "Dubey",
+        "Exilant"
+      ],
+      "line": 19,
+      "id": "free-crm-create-new-contact-feature;create-new-contact-test-feature;;6"
     }
   ],
   "keyword": "Examples"
@@ -159,7 +170,7 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 7520035031,
+  "duration": 9116795628,
   "status": "passed"
 });
 formatter.match({
@@ -176,28 +187,28 @@ formatter.match({
   "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 157052768,
+  "duration": 178062894,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 5471057361,
+  "duration": 4701801009,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5160284607,
+  "duration": 5196214872,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 3075728855,
+  "duration": 2387973992,
   "status": "passed"
 });
 formatter.match({
@@ -218,7 +229,7 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 2027555036,
+  "duration": 1906026810,
   "status": "passed"
 });
 formatter.scenario({
@@ -272,7 +283,7 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 5911824144,
+  "duration": 6130872322,
   "status": "passed"
 });
 formatter.match({
@@ -289,28 +300,28 @@ formatter.match({
   "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 145287374,
+  "duration": 161652103,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 4439944381,
+  "duration": 4346022882,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5196034018,
+  "duration": 5104041948,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2464397560,
+  "duration": 2377737006,
   "status": "passed"
 });
 formatter.match({
@@ -331,7 +342,7 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 2004929673,
+  "duration": 2166033558,
   "status": "passed"
 });
 formatter.scenario({
@@ -373,7 +384,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "user enter \"Rahul\" and \"Jain\" and \"Infosys\"",
+  "name": "user enter \"Pradeep\" and \"Kumar\" and \"Infosys\"",
   "matchedColumns": [
     2,
     3,
@@ -385,7 +396,7 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 5755936303,
+  "duration": 6228142979,
   "status": "passed"
 });
 formatter.match({
@@ -402,49 +413,49 @@ formatter.match({
   "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 152084426,
+  "duration": 158714852,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 5689463001,
+  "duration": 4643270306,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5103911869,
+  "duration": 5101706858,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2295480803,
+  "duration": 2407268425,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Rahul",
+      "val": "Pradeep",
       "offset": 12
     },
     {
-      "val": "Jain",
-      "offset": 24
+      "val": "Kumar",
+      "offset": 26
     },
     {
       "val": "Infosys",
-      "offset": 35
+      "offset": 38
     }
   ],
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 1105630977,
+  "duration": 1346810344,
   "status": "passed"
 });
 formatter.scenario({
@@ -498,7 +509,7 @@ formatter.match({
   "location": "CreateNewContacts.user_on_login_page()"
 });
 formatter.result({
-  "duration": 5756758952,
+  "duration": 6089369452,
   "status": "passed"
 });
 formatter.match({
@@ -515,28 +526,28 @@ formatter.match({
   "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
 });
 formatter.result({
-  "duration": 166560173,
+  "duration": 164079183,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.user_click_log_btn()"
 });
 formatter.result({
-  "duration": 5806037941,
+  "duration": 5063595031,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_contacts_link()"
 });
 formatter.result({
-  "duration": 5098463138,
+  "duration": 5104270248,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContacts.click_on_new_contacts_link()"
 });
 formatter.result({
-  "duration": 2446420916,
+  "duration": 2779948729,
   "status": "passed"
 });
 formatter.match({
@@ -557,7 +568,120 @@ formatter.match({
   "location": "CreateNewContacts.create_new_contacts(String,String,String)"
 });
 formatter.result({
-  "duration": 1945310494,
+  "duration": 1823321165,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 19,
+  "name": "Create new contact test feature",
+  "description": "",
+  "id": "free-crm-create-new-contact-feature;create-new-contact-test-feature;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "user on login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "user inputs \"naveenk\" and \"test@123\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "user click log btn",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "user click on contacts link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "user click on new contacts link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "user enter \"Himanshu\" and \"Dubey\" and \"Exilant\"",
+  "matchedColumns": [
+    2,
+    3,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CreateNewContacts.user_on_login_page()"
+});
+formatter.result({
+  "duration": 6056143129,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "naveenk",
+      "offset": 13
+    },
+    {
+      "val": "test@123",
+      "offset": 27
+    }
+  ],
+  "location": "CreateNewContacts.user_enters_un_pwd(String,String)"
+});
+formatter.result({
+  "duration": 162798961,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CreateNewContacts.user_click_log_btn()"
+});
+formatter.result({
+  "duration": 4939675649,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CreateNewContacts.click_on_contacts_link()"
+});
+formatter.result({
+  "duration": 5104947136,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CreateNewContacts.click_on_new_contacts_link()"
+});
+formatter.result({
+  "duration": 2478179972,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Himanshu",
+      "offset": 12
+    },
+    {
+      "val": "Dubey",
+      "offset": 27
+    },
+    {
+      "val": "Exilant",
+      "offset": 39
+    }
+  ],
+  "location": "CreateNewContacts.create_new_contacts(String,String,String)"
+});
+formatter.result({
+  "duration": 2114182588,
   "status": "passed"
 });
 });

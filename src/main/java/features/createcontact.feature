@@ -14,5 +14,6 @@ Examples:
       | username | password | first name | last name | company |
       | naveenk  | test@123 | Santosh    | Tarai     | Exilant |
       | naveenk  | test@123 | Nasir      | Md        | Exilant |
-      | naveenk  | test@123 | Rahul      | Jain      | Infosys |
+      | naveenk  | test@123 | Pradeep    | Kumar     | Infosys |
       | naveenk  | test@123 | Ravi       | Prakash   | Nokia   |
+      | naveenk  | test@123 | Himanshu	| Dubey     | Exilant |
